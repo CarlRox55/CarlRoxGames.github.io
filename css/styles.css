@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+/* Body */
+
 body {
     background: linear-gradient(150deg, #1e3a5f, #0d1b2a, #0a0f1a);
     /* background: linear-gradient(150deg, #96a3b6, #0a192f); */
@@ -12,6 +14,14 @@ body {
     color: #e4f0fc;
     font-size: 18px;
 }
+
+/* Layout */
+
+.page-content {
+    padding: 3rem 5rem;
+}
+
+/* Header */
 
 .header-bar {
     background-color: #0f1933;
@@ -31,8 +41,15 @@ body {
     text-decoration: none;
 }
 
+/* Navigation */
+
 .nav {
     position: relative;
+}
+
+.nav-item {
+    position: relative;
+    display: inline-block;
 }
 
 .nav a {
@@ -45,39 +62,12 @@ body {
 .nav a:hover {
     color: #b35c52;
 }
+
 .nav a:active {
     color: #ff0000;
 }
 
-.nav-item {
-    position: relative;
-    display: inline-block;
-}
-
-
-
-
-
-
-
-
-.link{
-    color: #64ffda;
-    text-decoration: none;
-    font-size: 22px;
-}
-.link:hover {
-    color: #b35c52;
-}
-
-.link:active {
-    color: #ff0000;
-}
-
-
-
-
-
+/* Dropdown */
 
 .dropdown {
     display: none;
@@ -102,37 +92,57 @@ body {
     display: block;
 }
 
-.page-content {
-    padding: 3rem 5rem;
-}
-
+/* Typography */
 
 .page-title {
-    font-size: 62px;
+    font-size: 66px;
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
 
 .page-desc {
     font-size: 32px;
-    color:#d1d1d1
+    color: #d1d1d1;
 }
 
-.text, .text-limit {
+.text,
+.text-limit {
     font-size: 22px;
     color: #d1d1d1;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
+    min-width: 460px;
 }
 
 .text-limit {
-    max-width: 1040px;
+    max-width: 1080px;
 }
 
-.game-image {
-    width: 520px;
-    height: 293px;
-    object-fit: cover;
+/* Generic Links */
+
+.link {
+    color: #64ffda;
+    text-decoration: none;
+    font-size: 22px;
 }
+
+.link:hover {
+    color: #b35c52;
+}
+
+.link:active {
+    color: #ff0000;
+}
+
+/* Components */
+
+.game-image {
+    width: 620px;
+    height: 349px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 10px;
+}
+
 .info-table {
     width: 100%;
 }
