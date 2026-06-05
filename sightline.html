@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+    <div id="header"></div>
+    <main id="content" class="page-content"></main>
+
+
+    <script src="js/layout.js"></script>
+    <script>
+        renderLayout("Sightline", `
+
+            <h1 class="page-title">Sightline</h1>
+
+            <p class="text">Sightline is a Steam Game I released in October 2025. It was originally created for a Game Jam for college, where I made a rough playable game in 2 days, winning Best gameplay and Best overall awards.</p>
+            <br>
+
+            <table class="info-table">
+                <tr>
+                    <td>
+                        <p class="text-limit">It is a singleplayer first-person action-adventure with LiDAR-based vision, melee and ranged combat, and exploration across two worlds.</p>
+                        <p class="text-limit">The gameplay consists of searching a large lab with limited energy. You see by either projecting dots from your goggles, which creates a pointcloud in front of you of your environment.
+                            You also can turn on your goggles vision mode, which lets you see in real vision, but at a very high energy cost.</p>
+                    </td>
+                    <td>
+                        <img src="images/Screenshot 2.png" class="game-image" />
+                    </td>
+                </tr>
+            </table>
+        
+        `);
+    </script>
+
+</body>
+</html>

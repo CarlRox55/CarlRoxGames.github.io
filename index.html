@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Evan's Game Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
     <div id="header"></div>
+    <main id="content" class="page-content"></main>
 
-    <main class="page-content">
-        <h1>Evan's dsadwadGame Portfolio</h1>
-        <p>Hellasdawdsao world!</p>
-    </main>
-
+    <script src="js/layout.js"></script>
     <script>
-        fetch("layout.html")
-            .then(res => res.text())
-            .then(html => document.getElementById("header").innerHTML = html);
+        renderLayout("CarlRox Games", `
+            <h1 class="page-title">CarlRox Games</h1>
+            <p>Game Portfolio for CarlRox Games Studio.</p>
+        `);
     </script>
 
 </body>
