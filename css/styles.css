@@ -14,7 +14,7 @@ body {
 }
 
 .header-bar {
-    background-color: #16213e;
+    background-color: #0f1933;
     border-bottom: 2px solid #e94560;
     height: 90px;
     padding: 0 2rem;
@@ -25,7 +25,7 @@ body {
 
 .logo {
     color: #e94560;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
     letter-spacing: 1px;
     text-decoration: none;
@@ -54,6 +54,13 @@ body {
     display: inline-block;
 }
 
+
+
+
+
+
+
+
 .link{
     color: #64ffda;
     text-decoration: none;
@@ -66,6 +73,11 @@ body {
 .link:active {
     color: #ff0000;
 }
+
+
+
+
+
 
 .dropdown {
     display: none;
