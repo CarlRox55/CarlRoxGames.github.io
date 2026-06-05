@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <div id="header"></div>
+        <main id="content" class="page-content"></main>
+
+
+        <script src="js/layout.js"></script>
+        <script>
+            renderLayout("Playable Games", `
+
+                <h1 class="page-title">Playable Games</h1>
+
+                <div class="playable-game-window">
+                    <canvas id="game" width="800" height="500"></canvas>
+                </div>
+
+            `);
+        </script>
+
+    </body>
+</html>

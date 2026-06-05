@@ -150,3 +150,14 @@ body {
 .info-table td {
     vertical-align: top;
 }
+
+.playable-game-window {
+    border: 2px solid #e94560;
+    display: inline-block;
+    padding: 5px;
+    background: #0f1933;
+}
+
+#playable-game {
+    display: block;
+}
