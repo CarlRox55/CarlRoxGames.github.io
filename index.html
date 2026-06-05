@@ -2,9 +2,29 @@
 <html>
 <head>
     <title>Evan's Game Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h1>Evan's Game Portfolio</h1>
-    <p>Hello world!</p>
+
+    <div id="header-container"></div>
+
+    <main class="page-content">
+        <h1>Evan's Game Portfolio</h1>
+        <p>Hello world!</p>
+    </main>
+
+    <script src="classes.js" defer></script>
+    <script defer>
+        const header = new HeaderBar({
+            title: "Evan's Games",
+            links: [
+                { label: "Home", href: "#" },
+                { label: "Projects", href: "#" },
+                { label: "About", href: "#" }
+            ]
+        });
+        header.render("header-container");
+    </script>
+
 </body>
 </html>
