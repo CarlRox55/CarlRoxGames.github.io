@@ -10,7 +10,6 @@ body {
     color: #ccd6f6;
 }
 
-/* Header bar */
 .header-bar {
     background-color: #16213e;
     border-bottom: 2px solid #e94560;
@@ -21,7 +20,7 @@ body {
     justify-content: space-between;
 }
 
-.header-bar .logo {
+.logo {
     color: #e94560;
     font-size: 1.2rem;
     font-weight: 700;
@@ -29,28 +28,17 @@ body {
     text-decoration: none;
 }
 
-.header-bar nav a {
+.nav a {
     color: #a8b2d8;
     text-decoration: none;
     margin-left: 1.5rem;
     font-size: 0.9rem;
-    transition: color 0.2s;
 }
 
-.header-bar nav a:hover {
+.nav a:hover {
     color: #e94560;
 }
 
-/* Page content */
 .page-content {
     padding: 3rem 2rem;
-}
-
-.page-content h1 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-}
-
-.page-content p {
-    color: #8892b0;
 }

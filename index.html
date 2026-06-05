@@ -6,25 +6,19 @@
 </head>
 <body>
 
-    <div id="header-container"></div>
+    <header class="header-bar">
+        <a class="logo" href="#">Evan's Games</a>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
 
     <main class="page-content">
         <h1>Evan's Game Portfolio</h1>
         <p>Hello world!</p>
     </main>
-
-    <script src="classes.js" defer></script>
-    <script defer>
-        const header = new HeaderBar({
-            title: "Evan's Games",
-            links: [
-                { label: "Home", href: "#" },
-                { label: "Projects", href: "#" },
-                { label: "About", href: "#" }
-            ]
-        });
-        header.render("header-container");
-    </script>
 
 </body>
 </html>
